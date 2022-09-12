@@ -2,7 +2,7 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-int main() {
+int main(void) {
     int number;
     scanf("%d", &number);
     if(number > 0)
@@ -13,5 +13,6 @@ int main() {
        {
         printf("%d is  negative \n", number);
        }
+    return (0);
  } 
 
