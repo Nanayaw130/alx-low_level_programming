@@ -3,7 +3,6 @@
  * @s is the string 
  * 
  */
-}
 int _strlen(char * s) {
     char *p = s;
     int count = 0;
