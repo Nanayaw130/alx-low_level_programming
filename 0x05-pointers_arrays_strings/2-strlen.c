@@ -1,7 +1,7 @@
 /**
- * _strlen checks for the length of the string
- * @s is the string 
- * 
+ * _strlen - calculates the length of a string.
+ * @s: pointer to the character array.
+ * Return: length of the string
  */
 int _strlen(char * s) {
     char *p = s;
