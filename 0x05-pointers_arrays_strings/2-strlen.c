@@ -1,17 +1,15 @@
 /**
- * _strlen - calculates the length of a string.
- * @s: pointer to the character array.
- * Return: length of the string
+ * _puts - prints a string, followed by a new line.
+ * @str: input string to print.
  */
-int _strlen(char *s)
+void _puts(char *str)
 {
-	int count = 0;
-
-	while (*s != '\0')
+	while (*str != '\0')
 	{
-		count++;
-
-		s++;
+		putchar(*str);
+		str++;
 	}
-	return (count);
+	putchar('\n');
 }
+
+
