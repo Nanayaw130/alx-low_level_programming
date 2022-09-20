@@ -1,13 +1,13 @@
 /**
- * _puts - outputs string.
- * @str: pointer to the character array.
- * Return: length of the string
+ * _puts - prints a string, followed by a new line.
+ * @str: input string to print.
  */
 void _puts(char *str)
 {
-	puts(str);
-
-	return str;
+        while (*str != '\0')
+        {
+                putchar(*str);
+                str++;
+        }
+        putchar('\n');
 }
-
-
